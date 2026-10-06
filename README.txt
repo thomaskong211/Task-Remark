@@ -1,14 +1,13 @@
-TASK MANAGER V3
+TASK MANAGER V4
 
-V3 adds:
-- Follow-up tab
-- Follow-up reminder enable/disable
-- Due/overdue follow-up display
-- In-app reminder banner
-- Browser notification permission request
-- Reminder checks while the app is open
-- Existing V2/V2.1 localStorage data remains compatible
-- Delete task with confirmation
+V4 is based on V3 and keeps the existing localStorage data format.
 
-Important:
-iOS web-app notifications depend on the app being added to the Home Screen and notification permission being available for the installed web app. The in-app reminder banner remains available regardless.
+V4 changes:
+- Cache-busting for app.js and style.css.
+- Existing V2/V2.1/V3 localStorage task data remains compatible.
+- Existing tasks are preserved on the device.
+- Follow-up reminder, update history, delete, dashboard and task workflow features remain.
+
+IMPORTANT:
+This app stores task data locally in the browser/device. Updating the GitHub Pages files does not delete existing local data.
+If Safari still shows an older version, open the site URL with ?v=4 once to force a fresh page load.
