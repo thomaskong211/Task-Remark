@@ -1,12 +1,14 @@
-TASK MANAGER V4.1
+TASK MANAGER V2 ENHANCED
 
-V4.1 is based on V4 and keeps the existing localStorage data format.
+Built again from the stable V2 base.
 
-Fixes:
-- Added Safari-safe task ID generation with a fallback when crypto.randomUUID() is unavailable.
-- Added cache-busting for app.js and style.css.
-- Existing V2/V2.1/V3/V4 localStorage task data remains compatible.
-- Existing tasks are preserved on the device.
+Includes:
+- Original V2 task workflow and update history
+- Delete task with confirmation
+- Follow-up date/time and reminder banner
+- Follow-ups tab
+- Existing V2 localStorage data compatibility
+- Safari-safe task ID generation without crypto.randomUUID()
+- Save verification and user-friendly storage error handling
 
-IMPORTANT:
-Task data remains local to the browser/device. Updating GitHub Pages does not delete existing local data.
+The task data remains stored locally on the browser/device.
